@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import breedsReducer from '../features/breedsSlice';
+import cardsReducer from '../features/cardsSlice';
 
 export default configureStore({
   reducer: {
-    breeds: breedsReducer
+    cards: cardsReducer
   }
 });

@@ -1,6 +1,6 @@
-import Breeds from "./breeds";
+import Cards from "./cards";
 import Favorites from "./favorites";
 import Landing from "./landing";
-import Quiz from "./quiz";
+import Login from "./login";
 
-export { Breeds, Favorites, Landing, Quiz };
+export { Cards, Favorites, Landing, Login };

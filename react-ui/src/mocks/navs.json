@@ -5,9 +5,9 @@
     "name": "Home"
   },
   {
-    "href": "/breeds",
+    "href": "/cards",
     "id": 102,
-    "name": "Breeds"
+    "name": "Cards"
   },
   {
     "href": "/favorites",
@@ -15,8 +15,8 @@
     "name": "Favorites"
   },
   {
-    "href": "/quiz",
+    "href": "/login",
     "id": 104,
-    "name": "Quiz"
+    "name": "Login"
   }
 ]
