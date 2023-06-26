@@ -222,7 +222,7 @@ ul {
   }
 } */
 
-@media (min-width:2500px) {
+@media (min-width:2800px) {
   .cardLayout{
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));

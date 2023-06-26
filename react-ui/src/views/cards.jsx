@@ -69,6 +69,7 @@ const Cards = () => {
             <h1 className='end'>
               Oh wow! Looks like you've reached the end of your Pokémon journey!! You've come so far! Click the button below to start your journey again.
             </h1>
+            <div className='firstPage'>{showButton && <button onClick={handleReset}>Start Journey again</button>}</div>
           </div>
         )}
        
@@ -113,7 +114,7 @@ const Cards = () => {
       </div>
       <div className='btnContainer'>
         <button className='nextBtn' onClick={nextPage}>Next Page</button>
-        <div className='firstPage'>{showButton && <button onClick={handleReset}>Hide Button</button>}</div>
+        
       </div>
     </div>
   );
