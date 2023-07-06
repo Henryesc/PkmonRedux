@@ -30,7 +30,7 @@ const Cards = () => {
   };
 
   const handleReset = () => {
-    navigate('https://pkmon-redux.vercel.app');
+    navigate('/cards');
   };
 
   // const fetchSoloCard = async (e) => {
